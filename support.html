@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Supporto e Assistenza – Rapportini Facili</title>
+  <link rel="icon" type="image/png" href="icon.png" />
+  <style>
+    :root {
+      --primary: #0F766E;
+      --primary-dark: #042F2E;
+      --primary-light: #14B8A6;
+      --bg: #F8FAFC;
+      --card-bg: #FFFFFF;
+      --text: #0F172A;
+      --text-muted: #64748B;
+      --border: #E2E8F0;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+      background-color: var(--bg);
+      color: var(--text);
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 780px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 36px 32px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 20px;
+    }
+    .header img {
+      width: 48px;
+      height: 48px;
+      border-radius: 10px;
+    }
+    h1 {
+      color: var(--primary);
+      font-size: 28px;
+      line-height: 1.2;
+    }
+    .nav-links {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 24px;
+      font-size: 14px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 14px;
+    }
+    h2 {
+      font-size: 19px;
+      color: var(--primary-dark);
+      margin-top: 26px;
+      margin-bottom: 10px;
+    }
+    p {
+      margin-bottom: 14px;
+      color: #334155;
+      font-size: 15px;
+    }
+    .contact-card {
+      background: #F0FDFA;
+      border: 1px solid #99F6E4;
+      border-radius: 12px;
+      padding: 24px;
+      margin: 24px 0;
+      text-align: center;
+    }
+    .contact-card h3 {
+      color: var(--primary-dark);
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+    .contact-card a.button {
+      display: inline-block;
+      margin-top: 12px;
+      background: var(--primary);
+      color: #FFFFFF;
+      padding: 10px 22px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.2s;
+    }
+    .contact-card a.button:hover {
+      background: var(--primary-dark);
+    }
+    .faq-item {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin-bottom: 12px;
+      background: #FAFAFA;
+    }
+    .faq-item h3 {
+      font-size: 16px;
+      color: var(--text);
+      margin-bottom: 6px;
+    }
+    .faq-item p {
+      margin-bottom: 0;
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 13px;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border);
+      padding-top: 18px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="icon.png" alt="Rapportini Facili" />
+      <div>
+        <h1>Supporto e Assistenza</h1>
+        <div class="nav-links">
+          <a href="index.html">← Torna alla Home</a>
+          <span>·</span>
+          <a href="privacy.html">Privacy Policy</a>
+          <span>·</span>
+          <a href="terms.html">Termini di Servizio</a>
+        </div>
+      </div>
+    </div>
+
+    <p>Hai bisogno di aiuto con <strong>Rapportini Facili</strong>, desideri inviare un suggerimento o hai riscontrato un problema tecnico? Siamo qui per aiutarti.</p>
+
+    <div class="contact-card">
+      <h3>Contatta il Supporto Tecnico</h3>
+      <p>Rispondiamo solitamente entro 24-48 ore lavorative.</p>
+      <a class="button" href="mailto:kharonte.dev@gmail.com?subject=Assistenza%20Rapportini%20Facili">Scrivi a kharonte.dev@gmail.com</a>
+    </div>
+
+    <h2>Domande Frequenti (FAQ)</h2>
+
+    <div class="faq-item">
+      <h3>Come funziona il ripristino degli acquisti?</h3>
+      <p>Se hai cambiato dispositivo o reinstallato l'App, apri la sezione <em>Impostazioni</em> (o la schermata di upgrade) e tocca <strong>Ripristina Acquisti</strong>: il tuo abbonamento o acquisto illimitato verrà riattivato subito senza costi aggiuntivi.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>I dati dei miei clienti e rapportini sono al sicuro?</h3>
+      <p>Sì: tutti i dati rimangono memorizzati localmente sul tuo smartphone. Non gestiamo database su server cloud proprietari, garantendoti la massima riservatezza professionale.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Come posso esportare o inviare un rapportino?</h3>
+      <p>Dalla schermata di dettaglio di ciascun rapportino puoi toccare <em>Condividi PDF</em> per inviarlo direttamente via WhatsApp, email o salvarlo su file.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Come posso richiedere una nuova funzionalità?</h3>
+      <p>Scrivici liberamente a <a href="mailto:kharonte.dev@gmail.com">kharonte.dev@gmail.com</a>: rilasciamo regolarmente aggiornamenti basati sui suggerimenti degli artigiani e tecnici che utilizzano l'app quotidianamente.</p>
+    </div>
+
+    <footer>
+      © 2026 Rapportini Facili. Tutti i diritti riservati.
+    </footer>
+  </div>
+</body>
+</html>
